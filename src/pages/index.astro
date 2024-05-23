@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome to Kirktaku</h1>
+			<h3>We just say what you believe</h3>
+			<p>
+				Why go to multiple websites to find out what you believe? You can get it all here, so stay
+				here forever. News? We got it! Paul-of-tics? WE GOT IT! Games journalism? <strong>WE GOT IT!!</strong>
+				Plus: Recipes, Finances, Lifestyle Advice, Technology and much much more!
+			</p>
+			<p>
+				This isn't the place where we <em>don't</em> get falsely accused of writing positive reviews for people we like.
+				We'll <em>actually</em> do that! Because if we like em, they're right. Don't worry though,
+				we're not univocal around here, you're going to get content from <strong>ALL</strong> sides of an issue.
+			</p>
+			<p>Here are a few things you can expect in the near future:</p>
+			<ul>
+				<li>A better looking website&mdash;give us a second, Jesus Christ</li>
+				<li>Expertly researched articles from an independent team of professional journalists</li>
+				<li>Point/Counterpoint style articles examining hot-button topics from a variety of viewpoints</li>
+				<li>Expert product reviews that focus on what <em>you</em> care about, not what companies want you to think</li>
+				<li>True, human, content in an age of AI slop</li>
+				<li>Groundbreaking content delivery systems that cast information stright to your brain (through your ears)</li>
+			</ul>
+			<p>
+				I know you're eager to get started; dont worry, its coming at you fast! Soon we'll also find a way to extract
+				money out of you so that we can buy whatever useless trinkets we want.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	h1,
+	h3 {
+		text-align: center;
+	}
+</style>
