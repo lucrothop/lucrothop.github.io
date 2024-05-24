@@ -6,6 +6,6 @@ import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://kirktaku.com',
+  site: 'https://www.kirktaku.com',
   integrations: [mdx(), sitemap(), robotsTxt()]
 });
